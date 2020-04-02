@@ -1,0 +1,81 @@
+<!-- Nombre que se le suele dar a la página inicial -->
+<!-- Standar HTML boilerplate-->
+<!-- Atom Keyboard Shortcuts: https://github.com/nwinkler/atom-keyboard-shortcuts-->
+<!DOCTYPE html> <!-- Esta linea le dice al browser que versión de HTML se está usando
+                en la versión 5 (con la que estamos se ha simplificado mucho la sentencia
+                al poner solo html estamos indicando que es la v.5)-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"> <!-- Con esta sentencia se le está informando al browser que toda la página se ha codificado usando UTF 8. Todo lo que es Unicode, se
+    puede codificar correctamente usando UTF 8-->
+    <!-- TODO: Revisar atributos meta en developer.mozilla.org -->
+    <title>Eduardo's Personal Site</title>
+  </head>
+  <body>
+    <table cellspacing="20">
+      <tr>
+        <td><img src="img/Foto_Perfil.jpg" alt="Eduardo Linkedin"></td><!-- el atributo alt del tag img, ayuda a google a que la web que estamos creando está relacionado con la imagen.
+          Si ponemos Gohan image, cuando alguien busque gohan image, google mostrará esta web entre otra gracias al texto ya que google no tiene la capacidad de ver qué es la imagen -->
+        <td><h1>Eduardo Pablos Ruiz</h1>
+        <p><em>Ingeniero Técnico en Telecomunicaciones</em> y <strong>Aeronautica</strong>
+          <dt>si queréis ver mi perfil de linkedin clicar
+            <a href="https://www.linkedin.com/in/eduardo-pablos-ruiz-9b0873b9/"
+            target="_blank">aquí.</a></dt>
+        </p></td>
+      </tr>
+    </table>
+<!-- p tag es para informar de que es un parráfo, se añade un salto de linea en cada tag, em tag es para dar enfási, es como el italic pero con más enfásis
+strong tag es para darle más enfásis, poniendolo en negrita-->
+
+    <p>
+      Vivo en <i>Vilanova i la Geltrú</i>. Estoy casado con <strong>Silvia Escalera Sojo</strong> y vamos a tener un <u>niño</u>
+    </p>
+    <hr>
+    <h3>Work Experience</h3>
+    <table cellspacing="10">
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Experience</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2016-2018</td>
+          <td>GMV: Junior Engineer</td>
+        </tr>
+        <tr>
+          <td>2018-2020</td>
+          <td>Indra: Senior Engineer</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>this is the foot</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <hr>
+    <h3>Skills</h3>
+      <table cellspacing="10">
+        <tr>
+          <td>Java</td>
+          <td>&#11088;&#11088;&#11088;</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td>&#11088;&#11088;&#11088;&#11088;</td>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>&#11088;&#11088;&#11088;</td>
+        </tr>
+      </table>
+    <hr> <!-- Linea negra -->
+    <dt><a href="Enlaces/Formacion.html" target="_blank">Mi Formación</a></dt>
+    <dt><a href="Enlaces/hobbies.html" target="_blank">Mis Hobbies</a></dt>
+    <dt><a href="Enlaces/Contact.html" target="_blank">Contact me</a></dt>
+    <p>Para volver arriba clica <a href="#top">aquí</a></p>
+  </body>
+</html>
